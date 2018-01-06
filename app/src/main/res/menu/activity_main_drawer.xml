@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_now_playing"
+            android:icon="@drawable/ic_local_activity"
+            android:title="@string/label_now_playing" />
+        <item
+            android:id="@+id/nav_upcoming"
+            android:icon="@drawable/ic_move_to_inbox"
+            android:title="@string/label_upcoming" />
+        <item
+            android:id="@+id/nav_favorite"
+            android:icon="@drawable/ic_favorite"
+            android:title="@string/label_favorite"
+            />
+    </group>
+
+    <item android:title="@string/label_preferences">
+        <menu>
+            <item
+                android:id="@+id/action_settings"
+                android:icon="@drawable/ic_settings_applications_black"
+                android:title="@string/label_setting_menu" />
+        </menu>
+    </item>
+
+</menu>
